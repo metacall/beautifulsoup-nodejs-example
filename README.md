@@ -21,6 +21,12 @@ metacall pip3 install beautifulsoup4==4.8.2 certifi==2019.11.28
 metacall npm install metacall express
 ```
 
+Navigate to the directory:
+
+```sh
+cd beautifulsoup-express-example
+```
+
 ## Run the Application
 
 ```sh
