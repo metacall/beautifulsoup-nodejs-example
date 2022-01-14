@@ -8,10 +8,22 @@ In this example we show how to use BeautifulSoup (Python) from an Express server
 
 ## Install
 
+Clone the repository:
+
+```sh
+git clone https://github.com/metacall/beautifulsoup-express-example
+```
+
 Install MetaCall CLI:
 
 ```sh
 curl -sL https://raw.githubusercontent.com/metacall/install/master/install.sh | sh
+```
+
+Navigate to the directory:
+
+```sh
+cd beautifulsoup-express-example
 ```
 
 Install application dependencies:
@@ -19,12 +31,6 @@ Install application dependencies:
 ```sh
 metacall pip3 install beautifulsoup4==4.8.2 certifi==2019.11.28
 metacall npm install metacall express
-```
-
-Navigate to the directory:
-
-```sh
-cd beautifulsoup-express-example
 ```
 
 ## Run the Application
